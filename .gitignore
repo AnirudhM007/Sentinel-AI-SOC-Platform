@@ -73,3 +73,7 @@ Thumbs.db
 .vscode/
 *.swp
 *.swo
+
+# Local helper script
+push_to_github.bat
+

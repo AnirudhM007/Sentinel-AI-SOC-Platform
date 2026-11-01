@@ -1,0 +1,9 @@
+Oct 31 09:00:15 srv-workstation sshd[2201]: Accepted publickey for alice from 192.168.1.100 port 52310 ssh2
+Oct 31 09:02:18 srv-workstation systemd-logind[780]: New session 102 of user alice.
+Oct 31 09:15:30 srv-workstation sshd[2210]: Accepted publickey for bob from 192.168.1.100 port 52312 ssh2
+Oct 31 09:15:35 srv-workstation systemd-logind[780]: New session 103 of user bob.
+Oct 31 10:30:12 srv-workstation sshd[2245]: Accepted publickey for charlie from 192.168.1.100 port 52318 ssh2
+Oct 31 11:45:00 srv-workstation CRON[3100]: (root) CMD (/usr/local/bin/backup-daily.sh)
+Oct 31 12:00:00 srv-workstation systemd[1]: Starting Daily apt download activities...
+Oct 31 14:10:22 srv-workstation sshd[2312]: Accepted publickey for alice from 192.168.1.100 port 52340 ssh2
+Oct 31 16:30:11 srv-workstation CRON[3200]: (sysadmin) CMD (/usr/bin/check_disk_health)

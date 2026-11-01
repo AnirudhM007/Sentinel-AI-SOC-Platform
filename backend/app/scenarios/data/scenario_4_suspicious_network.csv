@@ -1,0 +1,11 @@
+timestamp,hostname,username,source_ip,destination_ip,event_type,event_id_native,process_name,command_line,status,severity
+2026-11-01 02:00:10,srv-internal-db,dbadmin,10.0.1.20,203.0.113.19,NETWORK_CONNECT,conn_out,curl,curl -k https://203.0.113.19:8443/beacon,SUCCESS,MEDIUM
+2026-11-01 02:02:15,srv-internal-db,dbadmin,10.0.1.20,203.0.113.19,NETWORK_CONNECT,conn_out,curl,curl -k https://203.0.113.19:8443/beacon,SUCCESS,MEDIUM
+2026-11-01 02:04:20,srv-internal-db,dbadmin,10.0.1.20,203.0.113.19,NETWORK_CONNECT,conn_out,curl,curl -k https://203.0.113.19:8443/beacon,SUCCESS,MEDIUM
+2026-11-01 02:06:25,srv-internal-db,dbadmin,10.0.1.20,203.0.113.19,NETWORK_CONNECT,conn_out,curl,curl -k https://203.0.113.19:8443/beacon,SUCCESS,MEDIUM
+2026-11-01 02:08:30,srv-internal-db,dbadmin,10.0.1.20,203.0.113.19,NETWORK_CONNECT,conn_out,curl,curl -k https://203.0.113.19:8443/beacon,SUCCESS,MEDIUM
+2026-11-01 02:10:35,srv-internal-db,dbadmin,10.0.1.20,203.0.113.19,NETWORK_CONNECT,conn_out,curl,curl -k https://203.0.113.19:8443/beacon,SUCCESS,MEDIUM
+2026-11-01 02:12:40,srv-internal-db,dbadmin,10.0.1.20,203.0.113.19,NETWORK_CONNECT,conn_out,curl,curl -k https://203.0.113.19:8443/beacon,SUCCESS,MEDIUM
+2026-11-01 02:14:45,srv-internal-db,dbadmin,10.0.1.20,203.0.113.19,NETWORK_CONNECT,conn_out,curl,curl -k https://203.0.113.19:8443/beacon,SUCCESS,MEDIUM
+2026-11-01 02:16:50,srv-internal-db,dbadmin,10.0.1.20,203.0.113.19,NETWORK_CONNECT,conn_out,curl,curl -k https://203.0.113.19:8443/beacon,SUCCESS,MEDIUM
+2026-11-01 02:18:55,srv-internal-db,dbadmin,10.0.1.20,203.0.113.19,NETWORK_CONNECT,conn_out,curl,curl -k https://203.0.113.19:8443/beacon,SUCCESS,MEDIUM

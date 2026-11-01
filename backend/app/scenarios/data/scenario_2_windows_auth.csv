@@ -1,0 +1,10 @@
+TimeCreated,EventID,Computer,TargetUserName,IPAddress,ProcessName,CommandLine
+2026-10-31 23:10:01,4625,WIN-CORP-DC01,administrator,185.220.101.5,C:\Windows\System32\lsass.exe,Logon failure
+2026-10-31 23:10:04,4625,WIN-CORP-DC01,administrator,185.220.101.5,C:\Windows\System32\lsass.exe,Logon failure
+2026-10-31 23:10:08,4625,WIN-CORP-DC01,administrator,185.220.101.5,C:\Windows\System32\lsass.exe,Logon failure
+2026-10-31 23:10:12,4625,WIN-CORP-DC01,administrator,185.220.101.5,C:\Windows\System32\lsass.exe,Logon failure
+2026-10-31 23:10:15,4625,WIN-CORP-DC01,administrator,185.220.101.5,C:\Windows\System32\lsass.exe,Logon failure
+2026-10-31 23:10:19,4625,WIN-CORP-DC01,administrator,185.220.101.5,C:\Windows\System32\lsass.exe,Logon failure
+2026-10-31 23:10:28,4624,WIN-CORP-DC01,administrator,185.220.101.5,C:\Windows\System32\lsass.exe,Successful logon
+2026-10-31 23:10:29,4672,WIN-CORP-DC01,administrator,185.220.101.5,C:\Windows\System32\lsass.exe,Special privileges assigned to new logon
+2026-10-31 23:10:45,4688,WIN-CORP-DC01,administrator,185.220.101.5,powershell.exe,powershell.exe -NoProfile -ExecutionPolicy Bypass -Command whoami /all

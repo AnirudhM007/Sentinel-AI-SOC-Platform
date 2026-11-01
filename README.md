@@ -224,18 +224,6 @@ The user interface follows strict **Retro Neubrutalism** principles tailored for
 
 ---
 
-## 💼 Resume & Interview Showcase Guide
-
-### Resume Bullet Points
-> **SENTINEL AI — Autonomous SOC Threat Investigation Platform**  
-> *Python, FastAPI, LangGraph, Scikit-learn, SQLite, React, TypeScript, Tailwind CSS*
-> - Engineered an autonomous multi-agent threat response platform orchestrating **7 specialized LangGraph agents** with stateful conditional routing, loopback verification, and anti-hallucination grounding.
-> - Implemented a hybrid detection engine pairing **deterministic SIEM correlation rules** with an **unsupervised Isolation Forest ML anomaly detector** providing explainable Z-score deviations on host telemetry.
-> - Built a pure-Python binary **PCAP / PCAPNG packet capture parser** with Deep Packet Inspection (DPI) for DNS queries, TLS Server Name Indication (SNI), HTTP requests, and TCP/UDP streams.
-> - Developed a Retro Neubrutalist analyst interface featuring live telemetry graphs, chronological attack reconstruction, MITRE ATT&CK mapping, and automated PDF incident report generation.
-
----
-
 ## 🛡️ Defensive Security Governance
 
 - **Human Authorization Mandatory**: AI agents generate remediation recommendations only. No automated firewall modifications, account deletions, or network isolation routines are executed without analyst sign-off.
